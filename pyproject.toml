@@ -1,0 +1,15 @@
+[project]
+name = "time_series_itmo"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "GlebIsrailevich", email = "glebusai308@gmail.com"},
+]
+dependencies = ["pandas>=2.2.3", "ipykernel>=6.29.5", "matplotlib>=3.10.3", "statsmodels>=0.14.4", "scipy>=1.15.3", "scikit-learn>=1.6.1", "seaborn>=0.13.2", "jinja2>=3.1.6", "sktime>=0.37.0"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
